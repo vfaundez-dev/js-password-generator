@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a202c;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #2d3748;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    text-align: center;
+}
+
+input[type="number"], input[type="checkbox"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #1a202c;
+    color: #fff;
+    border: 1px solid #4a5568;
+    border-radius: 4px;
+}
+
+input[type="number"]:focus, input[type="checkbox"]:focus {
+    outline: none;
+    border-color: #63b3ed;
+}
+
+button {
+    background-color: #3182ce;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #63b3ed;
+}
+
+.password-container {
+    margin-top: 15px;
+}
+
+.password-container p {
+    margin: 0 0 5px 0;
+    font-weight: bold;
+}
+
+.password-output {
+    padding: 10px;
+    background-color: #1a202c;
+    border: 1px solid #4a5568;
+    border-radius: 5px;
+    min-height: 10px;
+    word-break: break-word;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.action-btn {
+    background-color: #3182ce;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.action-btn:hover {
+    background-color: #63b3ed;
+}
